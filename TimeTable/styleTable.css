@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+h1,
+h3,
+h4,
+table {
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table {
+    border-spacing: 5px;
+    border: 5px solid black;
+}
+
+.time
+.active,
+.break,
+th {
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.active:hover {
+    border-right: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid blue;
+    border-top: 3px solid blue;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px 0px #888888;
+}
+
+.break:hover {
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-top: 3px solid red;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px 0px #888888;
+}
+
+.time:hover {
+    border-right: 3px solid green;
+    border-bottom: 3px solid green;
+    border-left: 3px solid green;
+    border-top: 3px solid green;
+    cursor: pointer;
+    box-shadow: -1px -1px 3px 0px #888888;
+}
+
+@media screen and (min-width:1200px) and (max-width:1460px) {
+    * {
+        font-size: 0.999em;
+    }
+    footer {
+        font-size: 0.999em;
+    }
+    table {
+        border-spacing: 3px;
+        border: 3px solid black;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    * {
+        font-size: 0.99em;
+    }
+    footer {
+        font-size: 0.99em;
+    }
+    table {
+        border-spacing: 2px;
+        border: 2px solid black;
+    }
+}
